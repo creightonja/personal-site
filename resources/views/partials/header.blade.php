@@ -56,8 +56,8 @@
               </span>
             </a>
           </p> -->
-          <p class="control">
-            <a class="button is-white" href="https://www.linkedin.com/in/ncojay/">
+          <p class="control text-main-color">
+            <a class="button is-white text-main-color" href="https://www.linkedin.com/in/ncojay/">
               <span class="icon">
               <i class="fab fa-linkedin"></i>
               </span>
@@ -65,7 +65,7 @@
             </a>
           </p>
           <p class="control">
-            <a class="button is-white" href="{{route('email')}}">
+            <a class="button is-white text-main-color" href="{{route('email')}}">
               <span class="icon">
                 <i class="far fa-envelope"></i>
               </span>

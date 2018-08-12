@@ -1,3 +1,14 @@
 nav.navbar.main-color {
     background-color: $deep_blue;
 }
+
+a.button.text-main-color {
+    color: $deep_blue;
+}
+
+.main-image {
+    height: 85vh;
+    background-image: url("/night-sky.jpg");
+    background-size: cover;
+    background-position: center;
+}

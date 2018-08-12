@@ -8,3 +8,14 @@ nav.navbar.main-color {
   background-color: #184a75;
 }
 
+a.button.text-main-color {
+  color: #184a75;
+}
+
+.main-image {
+  height: 85vh;
+  background-image: url("/night-sky.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
