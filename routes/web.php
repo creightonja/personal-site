@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'HomeController@home')->name('home');
 
 Route::get('/email', 'EmailController@create')->name('email.create');
+
+Route::get('/about', 'HomeController@about')->name('about');
+
+Route::get('/email', 'HomeController@email')->name('email');
+
+Route::get('/cv', 'HomeController@cv')->name('cv');
+
+Route::resource('blog', 'BlogController');

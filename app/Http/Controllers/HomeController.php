@@ -12,4 +12,19 @@ class HomeController extends BaseController
     {
         return view('home');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function email()
+    {
+        return view('email');
+    }
+
+    public function cv()
+    {
+        return view('cv');
+    }
 }

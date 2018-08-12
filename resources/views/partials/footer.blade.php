@@ -1,7 +1,3 @@
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>
+<footer class="footer has-text-centered">
       Designed by <strong> Jason Creighton</strong>.    Copyright 2018
-    </p>
-  </div>
 </footer>

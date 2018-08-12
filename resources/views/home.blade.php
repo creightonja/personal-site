@@ -6,16 +6,5 @@
 @section('title', 'This is a title')
 
 @section('content')
-<section class="hero">
-  <div class="hero-body">
-    <div class="container">
-      <h1 class="title">
-        Hero title
-      </h1>
-      <h2 class="subtitle">
-        Hero subtitle
-      </h2>
-    </div>
-  </div>
-</section>
+    <img src="https://images.unsplash.com/photo-1523057530100-383d7fbc77a1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cff1b2c9744c71e84145dd78928513fc&auto=format&fit=crop&w=1949&q=80" alt="">
 @endsection
