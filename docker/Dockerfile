@@ -14,3 +14,5 @@ COPY --from=composer:1.5 /usr/bin/composer /usr/bin/composer
 
 RUN apt-get update && apt-get install -y zlib1g-dev \
     && docker-php-ext-install zip
+
+RUN apt-get install nano

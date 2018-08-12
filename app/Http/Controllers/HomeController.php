@@ -6,7 +6,10 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
-class Controller extends BaseController
+class HomeController extends BaseController
 {
-    
+    public function home()
+    {
+        return view('home');
+    }
 }
