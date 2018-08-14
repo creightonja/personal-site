@@ -3,7 +3,7 @@
 
 @endsection
 
-@section('title', 'Jason Creighton's Blog')
+@section('title', 'Jason Creighton\'s Blog')
 
 @section('content')
 Coming Soon
