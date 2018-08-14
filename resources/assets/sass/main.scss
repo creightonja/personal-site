@@ -2,13 +2,80 @@ nav.navbar.main-color {
     background-color: $deep_blue;
 }
 
+nav .brand {
+    font-family: kust;
+    .brand-name {
+        font-size: 1.5em;
+        @include for-desktop-up {
+                font-size: 2.5em;
+        }
+    }
+}
+
+nav {
+    .navbar-item.menu {
+        font-size: 1.2em;
+    }
+}
+
+.content-container {
+    min-height: 80vh;
+}
+
+.main-image {
+    .home-picture {
+        margin: 0 auto;
+        border: 3px solid white;
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+        @include for-phone-only {
+            height: 150px;
+            width: 150px;
+        }
+    }
+    .home-title {
+        font-size: 2em;
+        padding: 1em;
+        font-style: italic;
+        text-align: center;
+        background: rgba(0,0,0,.5);
+        text-shadow: 0 1px 0 $black;
+        
+        @include for-phone-only {
+            font-size: 2em;
+        }
+    }
+}
+
+.cv-iframe {
+    min-height: 80vh;
+    min-width: 100vw;
+}
+
 a.button.text-main-color {
     color: $deep_blue;
 }
 
 .main-image {
     height: 85vh;
-    background-image: url("/night-sky.jpg");
+    background-image: url("/images/night-sky.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.white-text {
+    color: $white;
+}
+
+
+
+@font-face {
+    font-family: wot;
+    src: url('/files/lot.otf');
+}
+
+@font-face {
+    font-family: kust;
+    src: url('/files/kust.otf');
 }

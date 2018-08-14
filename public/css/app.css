@@ -1,4 +1,152 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);.navbar-laravel {
+@import url(https://fonts.googleapis.com/css?family=Nunito);.m-xs {
+  margin: .5em;
+}
+
+.m-sm {
+  margin: 1em;
+}
+
+.m-md {
+  margin: 1.5em;
+}
+
+.m-lg {
+  margin: 2em;
+}
+
+.m-xl {
+  margin: 3em;
+}
+
+.p-xs {
+  padding: .5em;
+}
+
+.p-sm {
+  padding: 1em;
+}
+
+.p-md {
+  padding: 3em;
+}
+
+.p-lg {
+  padding: 5em;
+}
+
+.p-xl {
+  padding: 6em;
+}
+
+.p-r-xs {
+  padding-right: .5em;
+}
+
+.p-r-sm {
+  padding-right: 1em;
+}
+
+.p-r-md {
+  padding-right: 3em;
+}
+
+.p-r-lg {
+  padding-right: 5em;
+}
+
+.p-r-xl {
+  padding-right: 6em;
+}
+
+.p-l-xs {
+  padding-left: .5em;
+}
+
+.p-l-sm {
+  padding-left: 1em;
+}
+
+.p-l-md {
+  padding-left: 3em;
+}
+
+.p-l-lg {
+  padding-left: 5em;
+}
+
+.p-l-xl {
+  padding-left: 6em;
+}
+
+.p-t-xs {
+  padding-top: .5em;
+}
+
+.p-t-sm {
+  padding-top: 1em;
+}
+
+.p-t-md {
+  padding-top: 3em;
+}
+
+.p-t-lg {
+  padding-top: 5em;
+}
+
+.p-t-xl {
+  padding-top: 6em;
+}
+
+.m-t-xs {
+  margin-top: .5em;
+}
+
+.m-t-sm {
+  margin-top: 1em;
+}
+
+.m-t-md {
+  margin-top: 3em;
+}
+
+.m-t-lg {
+  margin-top: 5em;
+}
+
+.m-t-xl {
+  margin-top: 6em;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: center;
+  padding: .1em;
+  border-radius: 6px;
+  position: absolute;
+  bottom: -2em;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -8,14 +156,85 @@ nav.navbar.main-color {
   background-color: #184a75;
 }
 
+nav .brand {
+  font-family: kust;
+}
+
+nav .brand .brand-name {
+  font-size: 1.5em;
+}
+
+@media (min-width: 1088px) {
+  nav .brand .brand-name {
+    font-size: 2.5em;
+  }
+}
+
+nav .navbar-item.menu {
+  font-size: 1.2em;
+}
+
+.content-container {
+  min-height: 80vh;
+}
+
+.main-image .home-picture {
+  margin: 0 auto;
+  border: 3px solid white;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+@media (max-width: 599px) {
+  .main-image .home-picture {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.main-image .home-title {
+  font-size: 2em;
+  padding: 1em;
+  font-style: italic;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 #000000;
+}
+
+@media (max-width: 599px) {
+  .main-image .home-title {
+    font-size: 2em;
+  }
+}
+
+.cv-iframe {
+  min-height: 80vh;
+  min-width: 100vw;
+}
+
 a.button.text-main-color {
   color: #184a75;
 }
 
 .main-image {
   height: 85vh;
-  background-image: url("/night-sky.jpg");
+  background-image: url("/images/night-sky.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.white-text {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: wot;
+  src: url("/files/lot.otf");
+}
+
+@font-face {
+  font-family: kust;
+  src: url("/files/kust.otf");
 }
 

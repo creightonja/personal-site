@@ -1,0 +1,146 @@
+.m-xs {
+    margin: .5em;
+}
+
+.m-sm {
+    margin: 1em;
+}
+
+.m-md {
+    margin: 1.5em;
+}
+
+.m-lg {
+    margin: 2em;
+}
+
+.m-xl {
+    margin: 3em;
+}
+
+.p-xs {
+    padding: .5em;
+}
+
+.p-sm {
+    padding: 1em;
+}
+
+.p-md {
+    padding: 3em;
+}
+
+.p-lg {
+    padding: 5em;
+}
+
+.p-xl {
+    padding: 6em;
+}
+
+.p-r-xs {
+    padding-right: .5em;
+}
+
+.p-r-sm {
+    padding-right: 1em;
+}
+
+.p-r-md {
+    padding-right: 3em;
+}
+
+.p-r-lg {
+    padding-right: 5em;
+}
+
+.p-r-xl {
+    padding-right: 6em;
+}
+
+.p-l-xs {
+    padding-left: .5em;
+}
+
+.p-l-sm {
+    padding-left: 1em;
+}
+
+.p-l-md {
+    padding-left: 3em;
+}
+
+.p-l-lg {
+    padding-left: 5em;
+}
+
+.p-l-xl {
+    padding-left: 6em;
+}
+
+.p-t-xs {
+    padding-top: .5em;
+}
+
+.p-t-sm {
+    padding-top: 1em;
+}
+
+.p-t-md {
+    padding-top: 3em;
+}
+
+.p-t-lg {
+    padding-top: 5em;
+}
+
+.p-t-xl {
+    padding-top: 6em;
+}
+
+.m-t-xs {
+    margin-top: .5em;
+}
+
+.m-t-sm {
+    margin-top: 1em;
+}
+
+.m-t-md {
+    margin-top: 3em;
+}
+
+.m-t-lg {
+    margin-top: 5em;
+}
+
+.m-t-xl {
+    margin-top: 6em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(0,0,0,.5);
+    color: $white;
+    text-align: center;
+    padding: .1em;
+    border-radius: 6px;
+ 
+
+    position: absolute;
+    bottom: -2em;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}

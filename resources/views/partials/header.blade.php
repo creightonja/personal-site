@@ -1,9 +1,9 @@
 <nav class="navbar is-link is-transparent main-color">
     <div class="navbar-brand">
-        <a class="navbar-item" href="{{ route('home') }}">
-        <h1 class="is-size-4">Jason Creighton</h1>
+        <a class="navbar-item brand" href="{{ route('home') }}">
+        <span class="brand-name p-l-sm p-r-sm">Jason Creighton</span>
         </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <div class="navbar-burger burger p-t-md" data-target="navbarExampleTransparentExample">
             <span></span>
             <span></span>
             <span></span>
@@ -12,14 +12,14 @@
 
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
-        <a class="navbar-item" href="{{ route('cv') }}">
+        <a class="navbar-item menu" href="{{ route('cv') }}">
             CV
         </a>
-        <a class="navbar-item" href="{{ route('about') }}">
+        <a class="navbar-item menu" href="{{ route('about') }}">
             About
         </a>
 
-    <div class="navbar-item has-dropdown is-hoverable">
+    <div class="navbar-item has-dropdown is-hoverable menu">
         <a class="navbar-link" href="{{ route('blog.index') }}">
           Blog
         </a>
@@ -58,18 +58,26 @@
           </p> -->
           <p class="control text-main-color">
             <a class="button is-white text-main-color" href="https://www.linkedin.com/in/ncojay/">
-              <span class="icon">
-              <i class="fab fa-linkedin"></i>
+              <span class="icon p-sm tooltip">
+                  <span class="tooltip-text">LinkedIn</span>
+                <i class="fab fa-linkedin fa-2x"></i>
               </span>
-              <span>LinkedIn</span>
+            </a>
+          </p>
+          <p class="control text-main-color">
+            <a class="button is-white text-main-color" href="https://github.com/creightonja">
+              <span class="icon p-sm tooltip" alt="Github">
+                <span class="tooltip-text">Github</span>
+              <i class="fab fa-github fa-2x"></i>
+              </span>
             </a>
           </p>
           <p class="control">
             <a class="button is-white text-main-color" href="{{route('email')}}">
-              <span class="icon">
-                <i class="far fa-envelope"></i>
+              <span class="icon p-sm tooltip">
+                <span class="tooltip-text">Email</span>
+                <i class="far fa-envelope fa-2x"></i>
               </span>
-              <span>Contact</span>
             </a>
           </p>
         </div>
