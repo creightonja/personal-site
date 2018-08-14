@@ -3,7 +3,7 @@
 
 @endsection
 
-@section('title', 'This is a title')
+@section('title', 'Personal Site for Jason Creighton')
 
 @section('content')
     <div class="main-image">

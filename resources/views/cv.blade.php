@@ -3,7 +3,7 @@
 
 @endsection
 
-@section('title', 'This is a title')
+@section('title', 'CV for Jason Creighton')
 
 @section('content')
     <iframe class="cv-iframe" src="{{ URL::asset('/files/CreightonCV18.pdf') }}">

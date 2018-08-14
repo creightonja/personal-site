@@ -3,7 +3,7 @@
 
 @endsection
 
-@section('title', 'This is a title')
+@section('title', 'Email Jason Creighton')
 
 @section('content')
 <section class="hero">
