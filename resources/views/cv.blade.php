@@ -6,7 +6,7 @@
 @section('title', 'CV for Jason Creighton')
 
 @section('content')
-    <iframe class="cv-iframe" src="{{ URL::asset('/files/CreightonCV18.pdf') }}">
+    <iframe class="cv-iframe" src="{{ URL::asset('/files/CreightonCV08-18.pdf') }}">
 
     </iframe>
 @endsection
