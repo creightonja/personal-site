@@ -1,4 +1,9 @@
 FROM php:7.2-apache-stretch
+# RUN docker-php-source extract \
+# 	&& apt-get install mysql-server php7.2-mysql \
+# 	&& docker-php-source delete
+
+COPY docker/php.ini /usr/local/etc/php/
 
 COPY . /var/www/html
 COPY docker/vhost.conf /etc/apache2/sites-available/000-default.conf
