@@ -152,6 +152,10 @@
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
 nav.navbar.main-color {
   background-color: #184a75;
 }
@@ -206,6 +210,43 @@ nav .navbar-item.menu {
   .main-image .home-title {
     font-size: 2em;
   }
+}
+
+section.skills {
+  background-color: #ebebeb;
+  padding: 4em;
+}
+
+section.skills .skills-container {
+  text-align: center;
+}
+
+section.skills .skills-container h2 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: .4em;
+}
+
+section.skills .skills-container .skill-container {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1em;
+  margin: 1em;
+  max-width: 20em;
+}
+
+section.skills .skills-container .skill-container .icon-bg {
+  color: #184a75;
+}
+
+section.skills .skills-container .skill-container .icon-main {
+  color: #ffffff;
+}
+
+section.skills .skills-container .skill-container .skill-description h3 {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: .3em;
 }
 
 .cv-iframe {
