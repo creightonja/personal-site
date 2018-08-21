@@ -54,12 +54,16 @@ nav {
 section.skills {
     background-color: $light-gray;
     padding: 4em;
+    color: $deep_blue;
     .skills-container {
         text-align: center;
         h2 {
             font-weight: bold;
             font-size: 2em;
-            padding: .4em;
+            margin: 0% 13% 4% 13%;
+            padding: 1em;
+            border-bottom: 1px solid $deep_blue;
+            color: $black;
         }
         .skill-container {
             display: inline-block;
@@ -78,6 +82,7 @@ section.skills {
                     font-weight: bold;
                     font-size: 1.2em;
                     padding: .3em;
+                    color: $black;
                 }
             }
         }

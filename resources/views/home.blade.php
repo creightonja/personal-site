@@ -26,7 +26,7 @@
                         <i class="fab fa-react fa-stack-1x icon-main"></i>
                     </span> 
                 </div>
-                <div class="skill-description">
+                <div class="skill-description m-t-sm">
                     <h3>Single Page Applications</h3>
                     <span>
                         Using React and Vue, I create engaging web applications that feel native and transition seemlessly.
@@ -40,7 +40,7 @@
                         <i class="fas fa-cogs fa-stack-1x icon-main"></i>
                     </span> 
                 </div>
-                <div class="skill-description">
+                <div class="skill-description m-t-sm">
                     <h3>APIs and Microservices</h3>
                     <span>
                         I build OAuth compliant microservices, with detailed messaging, and great documentation.
@@ -54,7 +54,7 @@
                         <i class="fas fa-cloud fa-stack-1x icon-main"></i>
                     </span> 
                 </div>
-                <div class="skill-description">
+                <div class="skill-description m-t-sm">
                     <h3>Cloud Based Applications</h3>
                     <span>
                         My services are hosted on cloud based platforms such as EC2 on AWS. (This site is hosted on Digital Ocean.)
